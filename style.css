@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cont-1 {
+    display: flex;
+}
+
+.cont-1 .wel-tag {
+    width: 33%;
+    padding: 20px 58px 58px 100px;
+    font-size: 24px;
+    margin: 100px auto;
+}
+
+.cont-1 img {
+    width: 72%;
+    padding-left: 70px;
+}
+
+.cont-1 .wel-tag span {
+    color: rgb(222, 112, 33);
+}
+
+.cont-1 .wel-tag a {
+    padding: 15px 30px;
+    background-image: linear-gradient(rgb(218, 147, 16), red);
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.cont-1 .wel-tag p {
+    padding-bottom: 100px;
+}
