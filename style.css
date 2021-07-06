@@ -91,8 +91,6 @@ section {
     padding-left: 30px;
 }
 
-.cont-2 .about-us a {}
-
 
 /** Third section**/
 
@@ -212,8 +210,8 @@ button:hover {
 .cont-4 .info {
     display: flex;
     padding: 0px 80px;
-    margin: 0 80px;
-    box-shadow: 2px 2px 40px gray;
+    margin: 0 80px 50px 80px;
+    box-shadow: 2px 2px 20px gray;
 }
 
 .cont-4 .info div {
