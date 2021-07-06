@@ -5,6 +5,13 @@ body {
     padding: 0;
 }
 
+section {
+    padding-bottom: 150px;
+}
+
+
+/** First section**/
+
 .cont-1 {
     display: flex;
 }
@@ -12,12 +19,19 @@ body {
 .cont-1 .wel-tag {
     width: 33%;
     padding: 20px 58px 58px 100px;
-    font-size: 24px;
     margin: 100px auto;
 }
 
+.cont-1 .wel-tag h1 {
+    font-size: 45px;
+}
+
+.cont-1 .wel-tag p {
+    font-size: 20px;
+}
+
 .cont-1 img {
-    width: 72%;
+    width: 85%;
     padding-left: 70px;
 }
 
@@ -25,7 +39,7 @@ body {
     color: rgb(222, 112, 33);
 }
 
-.cont-1 .wel-tag a {
+.button {
     padding: 15px 30px;
     background-image: linear-gradient(rgb(218, 147, 16), red);
     text-decoration: none;
@@ -37,4 +51,222 @@ body {
 
 .cont-1 .wel-tag p {
     padding-bottom: 100px;
+}
+
+
+/** Second section**/
+
+.cont-2 {
+    display: flex;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont-2 img {
+    width: 65%;
+    padding-left: 70px;
+}
+
+.cont-2 .about-us {
+    width: 60%;
+    padding: 108px 70px 0px 100px;
+    font-size: 24px;
+    margin: 100px auto 50px;
+}
+
+.cont-2 .about-us span {
+    color: chartreuse;
+}
+
+.cont-2 .about-us p {
+    word-spacing: 12px;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 6px 0px rgb(170, 168, 168);
+}
+
+.cont-2 .about-us h1 {
+    padding-left: 30px;
+}
+
+.cont-2 .about-us a {}
+
+
+/** Third section**/
+
+.cont-3 .title {
+    width: 100%;
+    text-align: center;
+}
+
+.cont-3 .title h1 {
+    font-size: 45px;
+    color: rgb(60, 56, 116);
+}
+
+.cont-3 .title p {
+    font-weight: 600;
+}
+
+.cont-3 nav {
+    display: flex;
+    padding: 0 80px;
+}
+
+.cont-3 nav div {
+    width: 32%;
+    border-radius: 30px;
+    margin: 10px;
+    padding-bottom: 50px;
+    box-shadow: 5px 7px 40px gray;
+}
+
+.cont-3 nav div img {
+    width: 90%;
+    padding: 18px 15px;
+    border-radius: 30px
+}
+
+.cont-3 nav div h2 {
+    font-size: 45px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.cont-3 nav div p {
+    padding: 10px;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 5px;
+    word-spacing: 10px;
+}
+
+
+/** Forth section **/
+
+.cont-4 h2 {
+    margin-left: 25px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.cont-4 h2 span {
+    color: rgb(20, 195, 195);
+}
+
+#text {
+    outline: none;
+    resize: none;
+    margin: 15px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 27px;
+    padding: 9px 92px 29px 50px;
+}
+
+#name {
+    padding: 10px 60px;
+    border-radius: 30px;
+    outline: none;
+    margin: 10px 10px 20px 20px;
+    border: 2px solid black;
+    color: gray;
+    font-size: 20px;
+}
+
+#email {
+    padding: 10px 60px;
+    border-radius: 30px;
+    outline: none;
+    margin: 10px 10px 20px 20px;
+    border: 2px solid black;
+    color: gray;
+    font-size: 20px;
+}
+
+button {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 10px 20px 20px;
+    border-radius: 40px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+    border: 2px solid rgb(66, 65, 65);
+    transition: 0.4s;
+}
+
+button:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.cont-4 .info {
+    display: flex;
+    padding: 0px 80px;
+    margin: 0 80px;
+    box-shadow: 2px 2px 40px gray;
+}
+
+.cont-4 .info div {
+    padding: 20px 100px;
+}
+
+.cont-4 .info div h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(82, 141, 58);
+}
+
+.cont-4 .info div p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.cont-4 .links a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border: 3px solid rgb(9, 117, 240);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.cont-4 .links a:hover {
+    color: white;
+    background-color: rgb(9, 117, 240);
+    transition: 0.4s;
+}
+
+
+/** Footer **/
+
+footer {
+    background-color: rgb(42, 41, 41);
+    width: 100%;
+    padding: 1px 0;
+    text-align: center;
+    color: white;
+}
+
+footer h3 {
+    font-size: 15px;
+    letter-spacing: 6px;
+}
+
+footer h3 span {
+    color: orangered;
+    l
 }
