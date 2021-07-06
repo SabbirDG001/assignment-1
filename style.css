@@ -207,6 +207,18 @@ button:hover {
     transition: 0.4s;
 }
 
+#to-left {
+    margin-left: 80px;
+}
+
+form {
+    margin-bottom: 60px;
+    margin-left: 80px;
+    width: 60%;
+    box-shadow: 1px 1px 30px rgb(173, 171, 171);
+    border-radius: 15px;
+}
+
 .cont-4 .info {
     display: flex;
     padding: 0px 80px;
